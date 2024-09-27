@@ -1,5 +1,5 @@
 const city = 'New York'; // NON MODIFICARE QUESTA RIGA
-const cityName = 'Città'; // NON MODIFICARE QUESTA RIGA
+const cityName = 'City'; // NON MODIFICARE QUESTA RIGA
 const shoppingList = 'mele, banane, arance, uva'; // NON MODIFICARE QUESTA RIGA
 const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 
@@ -16,16 +16,16 @@ console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
-const cityReplaced = '';
+const cityReplaced = city.replace('York', 'Delhi');
 console.log(cityReplaced); // Output:  "New Delhi"
 
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
 // e rendi cityNameConcat uguale a 'New York City'
-const cityNameConcat = '';
+const cityNameConcat = `${city} ${cityName}`;
 console.log(cityNameConcat); // Output: "New York City"
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = '';
+const upperCaseHello = hello.toUpperCase('hello');
 console.log(upperCaseHello); // Output: "HELLO"
